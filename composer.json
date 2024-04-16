@@ -1,0 +1,6 @@
+{
+    "name": "alok/next_decipher",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
+}
