@@ -402,6 +402,12 @@ nav ul li a.cta:hover {
     display: inline-block;
     color: #ddd;
 }
+.headshot {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
 .tagline {
     font-family: barlowregular;
     font-size: 35px;
@@ -1633,8 +1639,8 @@ nav ul li a.cta:hover {
 }
 @media (max-width: 560px) {
     .section_one h2 {
-        display: block;
-        font-size: 60px;
+        /* display: block; */
+        font-size: 50px;
         line-height: 70px;
         text-align: left;
     }
@@ -1643,8 +1649,11 @@ nav ul li a.cta:hover {
         width: 100%;
         padding: 0 15px;
     }
+    .headshot {
+        width: 100px;
+    }
     .dcb_wrap h2 {
-        padding: 0 15px;
+        /* padding: 0 15px; */
     }
     .hm_tagline {
         top: 30%;
