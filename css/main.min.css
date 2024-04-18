@@ -561,7 +561,7 @@ nav ul li a.cta:hover {
     font-family: barlowbold;
     font-size: 60px;
     line-height: 60px;
-    color: #d5d5d5;
+    color: #cacaca;
     text-transform: uppercase;
 }
 .hm_about .section_aside_text h2,
@@ -630,8 +630,8 @@ nav ul li a.cta:hover {
 }
 .section_five_wrapper {
     background: #83a4d4;
-    background: -webkit-linear-gradient(to bottom, #b6fbff, #83a4d4);
-    background: linear-gradient(to bottom, #b6fbff, #83a4d4);
+    background: -webkit-linear-gradient(to bottom, #62e0e7, #83a4d4);
+    background: linear-gradient(to bottom, #62e0e7, #83a4d4);
     padding: 80px 15px;
 }
 .hm_contact h2 {
@@ -653,7 +653,7 @@ nav ul li a.cta:hover {
     margin: 0 auto;
     height: 50px;
     width: 125px;
-    line-height: 50px;
+    line-height: 45px;
     transition: all 0.5s ease;
 }
 .hm_con_btn a {
@@ -710,7 +710,7 @@ nav ul li a.cta:hover {
     display: none;
 }
 .page_head {
-    color: #d5d5d5;
+    color: #cacaca;
     font-family: barlowbold;
     font-size: 80px;
 }
@@ -718,7 +718,7 @@ nav ul li a.cta:hover {
     font-family: barlowbold;
     font-size: 36px;
     line-height: 46px;
-    color: #d5d5d5;
+    color: #cacaca;
 }
 .abt_section p {
     font-family: barlowregular;
@@ -730,7 +730,7 @@ nav ul li a.cta:hover {
     padding-bottom: 100px;
 }
 .mvv_pills .nav-pills .nav-link {
-    color: #d5d5d5;
+    color: #cacaca;
     font-family: barlowbold;
     text-transform: uppercase;
     font-size: 40px;
@@ -770,7 +770,7 @@ nav ul li a.cta:hover {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #d5d5d5;
+    background-color: #cacaca;
     display: inline-block;
     position: relative;
     bottom: 5px;
@@ -830,6 +830,9 @@ nav ul li a.cta:hover {
     font-size: 14px;
     color: #222;
 }
+.portfolio .project_wrapper img {
+    width: 100%;
+}
 .client_wrapper img {
     width: 450px;
 }
@@ -887,14 +890,14 @@ nav ul li a.cta:hover {
     font-family: barlowbold;
     font-size: 150px;
     line-height: 120px;
-    color: #d5d5d5;
+    color: #cacaca;
 }
 .contact_txt {
     font-family: abril_fatfaceregular;
     font-size: 100px;
     line-height: 100px;
     padding: 80px 15px 0;
-    color: #d5d5d5;
+    color: #cacaca;
 }
 .contact_form {
     margin: 80px 15px 0;
@@ -1169,7 +1172,7 @@ nav ul li a.cta:hover {
         left: -6px;
         top: -3px;
         font-size: 50px;
-        color: #d5d5d5;
+        color: #cacaca;
     }
     .mvv_tab_content .tab-pane p {
         text-align: center;
@@ -1445,8 +1448,8 @@ nav ul li a.cta:hover {
     }
     .hm_mob_hi p {
         background: #83a4d4;
-        background: -webkit-linear-gradient(to bottom, #b6fbff, #83a4d4);
-        background: linear-gradient(to bottom, #b6fbff, #83a4d4);
+        background: -webkit-linear-gradient(to bottom, #62e0e7, #83a4d4);
+        background: linear-gradient(to bottom, #62e0e7, #83a4d4);
         box-shadow: 0 10px 20px rgba(131, 164, 212, 0.4);
         font-family: barlowbold;
         font-size: 20px;
@@ -1639,7 +1642,6 @@ nav ul li a.cta:hover {
 }
 @media (max-width: 560px) {
     .section_one h2 {
-        /* display: block; */
         font-size: 50px;
         line-height: 70px;
         text-align: left;
@@ -1651,9 +1653,6 @@ nav ul li a.cta:hover {
     }
     .headshot {
         width: 100px;
-    }
-    .dcb_wrap h2 {
-        /* padding: 0 15px; */
     }
     .hm_tagline {
         top: 30%;
