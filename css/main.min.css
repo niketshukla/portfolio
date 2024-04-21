@@ -1001,6 +1001,107 @@ nav ul li a.cta:hover {
     font-family: barlowregular;
     text-align: center;
 }
+/* portfolio */
+.padding_zero {
+    padding: 0px;
+}
+.image_fit {
+    width: 100%;
+}
+.section_space_portfolio {
+    padding-bottom: 100px;
+}
+.portfolio_banner {
+    width: 100%;
+}
+.portfolio_banner img {
+    width: 100%;
+}
+.highlight {
+    font-family: barlowbold;
+}
+.portfolio_para p {
+    font-family: barlowregular;
+    font-size: 24px;
+    line-height: 40px;
+    color: #222;
+}
+.role_head {
+    color: #f58992;
+    font-family: barlowbold;
+    text-transform: uppercases;
+    font-size: 16px;
+}
+.role_desc {
+    font-family: barlowregular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+}
+.case_wrapper h2 {
+    font-family: barlowbold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #f58992;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.case_wrapper p {
+    font-family: barlowregular;
+    font-size: 20px;
+    line-height: 32px;
+    color: #222;
+    margin-bottom: 15px;
+}
+.approach p {
+    font-family: barlowbold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #222;
+    display: inline-block;
+    vertical-align: top;
+}
+.approach .approach_cnt {
+    font-family: barlowbold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f58992;
+    margin-right: 20px;
+}
+.approach p span {
+    font-family: barlowregular;
+    font-size: 18px;
+    line-height: 32px;
+    color: #222;
+    display: block;
+}
+.red_strap {
+    background-color: #fdebec;
+    padding: 15px;
+}
+.blue_strap {
+    background-color: #e7f3f8;
+    padding: 15px;
+}
+.callout span {
+    display: inline-block;
+    margin-right: 10px;
+}
+.research_data {
+    margin-right: 15%;
+}
+.data_findings h2 {
+    color: #222;
+}
+.case_wrapper .grey_head {
+    font-family: barlowbold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #cacaca;
+    text-transform: uppercase;
+}
+
+/* media queries */
 @media screen and (min-height: 700px) {
     .hm_tagline {
         top: 25%;
