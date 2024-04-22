@@ -1100,6 +1100,9 @@ nav ul li a.cta:hover {
     color: #cacaca;
     text-transform: uppercase;
 }
+.one_flow {
+    width: 85%;
+}
 
 /* media queries */
 @media screen and (min-height: 700px) {
