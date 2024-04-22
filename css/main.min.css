@@ -830,8 +830,53 @@ nav ul li a.cta:hover {
     font-size: 14px;
     color: #222;
 }
+.portfolio .project_wrapper {
+    position: relative;
+}
 .portfolio .project_wrapper img {
     width: 100%;
+}
+.portfolio .project_wrapper .view_casestudy {
+    background-color: rgb(0 0 0 / 71%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.portfolio .project_wrapper .view_casestudy p {
+    font-family: barlowregular;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.portfolio .project_wrapper .view_casestudy p.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(103, 212, 224, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.8s ease;
+}
+.portfolio .project_wrapper:hover .view_casestudy {
+    opacity: 1;
+}
+.portfolio .project_wrapper:hover .view_casestudy p.cta:before {
+    width: 100%;
+    background: #67d4e0;
 }
 .client_wrapper img {
     width: 450px;
