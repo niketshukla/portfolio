@@ -869,7 +869,7 @@ nav ul li a.cta:hover {
     background: rgba(103, 212, 224, 0.5);
     width: 56px;
     height: 56px;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease;
 }
 .portfolio .project_wrapper:hover .view_casestudy {
     opacity: 1;
@@ -1071,10 +1071,13 @@ nav ul li a.cta:hover {
     line-height: 40px;
     color: #222;
 }
+.role_wrapper {
+    margin-bottom: 15px;
+}
 .role_head {
     color: #f58992;
     font-family: barlowbold;
-    text-transform: uppercases;
+    text-transform: uppercase;
     font-size: 16px;
 }
 .role_desc {
@@ -1148,6 +1151,14 @@ nav ul li a.cta:hover {
 .one_flow {
     width: 85%;
 }
+.fintrack_head_color,
+.fintrack_head_color h2,
+.fintrack_head_color .approach_cnt {
+    color: #bd8312;
+}
+.portfolio_flow {
+    width: 70%;
+}
 
 /* media queries */
 @media screen and (min-height: 700px) {
@@ -1212,6 +1223,9 @@ nav ul li a.cta:hover {
     .contact_txt {
         font-size: 8vw;
         line-height: 93px;
+    }
+    .approach p span {
+        font-size: 17px;
     }
 }
 @media (min-width: 992px) {
@@ -1356,6 +1370,12 @@ nav ul li a.cta:hover {
         margin: 80px 0 0;
         padding: 30px 15px;
         width: 95%;
+    }
+    .approach .approach_cnt {
+        margin-right: 12px;
+    }
+    .approach p span {
+        font-size: 16px;
     }
 }
 @media (max-width: 880px) {
@@ -1684,6 +1704,18 @@ nav ul li a.cta:hover {
         padding: 30px;
         width: 100%;
     }
+    .approach {
+        margin-bottom: 1.5rem;
+    }
+    .approach:last-child {
+        margin-bottom: 0;
+    }
+    .approach .approach_cnt {
+        margin-right: 20px;
+    }
+    .approach p span {
+        font-size: 18px;
+    }
 }
 @media (max-width: 640px) {
     .explore {
@@ -1787,6 +1819,9 @@ nav ul li a.cta:hover {
     }
     .contact_txt {
         font-size: 80px;
+    }
+    .fintrack_persona {
+        width: 50%;
     }
 }
 @media (max-width: 560px) {
@@ -1895,6 +1930,9 @@ nav ul li a.cta:hover {
     }
     .contact_form {
         margin: 30px 0 0;
+    }
+    .fintrack_persona {
+        width: 50%;
     }
 }
 @media (max-width: 480px) {
