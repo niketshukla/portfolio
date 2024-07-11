@@ -1160,6 +1160,13 @@ nav ul li a.cta:hover {
     width: 70%;
 }
 
+/* pizzaontherock */
+.pizza_head_color,
+.pizza_head_color h2,
+.pizza_head_color .approach_cnt {
+    color: #18bc5e;
+}
+
 /* media queries */
 @media screen and (min-height: 700px) {
     .hm_tagline {
