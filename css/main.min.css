@@ -171,7 +171,7 @@ nav ul li a:hover {
     color: #f02d3a;
 }
 nav ul li:last-child a.active {
-    color: #222;
+    color: #fff;
 }
 nav ul li a.cta:hover {
     color: #fff;
@@ -215,11 +215,13 @@ nav ul li a.cta:hover {
     transform: translateX(-5px);
     transition: all 0.3s ease;
 }
-.cta:hover:before {
+.cta:hover:before,
+.cta.active:before {
     width: 100%;
     background: #67d4e0;
 }
-.cta:hover svg {
+.cta:hover svg,
+.cta.active svg {
     transform: translateX(0);
     stroke: #fff;
 }
