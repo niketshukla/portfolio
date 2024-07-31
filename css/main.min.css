@@ -1168,6 +1168,12 @@ nav ul li a.cta:hover {
 .pizza_head_color .approach_cnt {
     color: #18bc5e;
 }
+.pizza_flow_one {
+    width: 79%;
+}
+.pizza_flow_two {
+    width: 55%;
+}
 
 /* media queries */
 @media screen and (min-height: 700px) {
