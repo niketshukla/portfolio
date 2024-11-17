@@ -1099,14 +1099,14 @@ nav ul li a.cta:hover {
 .case_wrapper p {
     font-family: barlowregular;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 40px;
     color: #222;
     margin-bottom: 15px;
 }
 .approach p {
     font-family: barlowbold;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 40px;
     color: #222;
     display: inline-block;
     vertical-align: top;
@@ -1114,7 +1114,7 @@ nav ul li a.cta:hover {
 .approach .approach_cnt {
     font-family: barlowbold;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 40px;
     color: #f58992;
     margin-right: 20px;
 }
@@ -1175,7 +1175,34 @@ nav ul li a.cta:hover {
     width: 55%;
 }
 
+/* margin adjustments */
+.mb-5,
+.my-5 {
+    margin-bottom: 5rem !important;
+}
+.mb-4,
+.my-4 {
+    margin-bottom: 3rem !important;
+}
+
 /* media queries */
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 80%;
+    }
+}
+@media (max-width: 992px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 100%;
+    }
+}
 @media screen and (min-height: 700px) {
     .hm_tagline {
         top: 25%;
