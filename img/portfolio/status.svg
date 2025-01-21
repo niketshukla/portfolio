@@ -6,7 +6,7 @@
 <rect x="1026" y="77" width="341" height="248" rx="8" fill="#C8C8C8"/>
 <rect x="-264" y="77" width="341" height="248" rx="8" fill="#C8C8C8"/>
 <rect x="165" y="78" width="341" height="248" rx="8" fill="url(#pattern0_36_634)"/>
-<rect x="594" y="78" width="341" height="248" fill="url(#pattern1_36_634)"/>
+<rect x="594" y="78" width="341" height="248" rx="8" fill="url(#pattern1_36_634)"/>
 </g>
 <defs>
 <pattern id="pattern0_36_634" patternContentUnits="objectBoundingBox" width="1" height="1">
