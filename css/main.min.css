@@ -837,16 +837,18 @@ nav ul li a.cta:hover {
 }
 .portfolio .project_wrapper img {
     width: 100%;
+    border-radius: 8px;
 }
 .portfolio .project_wrapper .view_casestudy {
-    background-color: rgb(0 0 0 / 71%);
+    background-color: rgb(0 0 0 / 80%);
+    border-radius: 8px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: 0;
-    transition: 0.5s ease;
+    transition: 0.8s ease;
 }
 .portfolio .project_wrapper .view_casestudy p {
     font-family: barlowregular;
@@ -868,18 +870,19 @@ nav ul li a.cta:hover {
     left: 0;
     display: block;
     border-radius: 28px;
-    background: rgba(103, 212, 224, 0.5);
-    width: 56px;
+    background: transparent;
+    border: 2px solid #67d4e0;
+    width: 100%;
     height: 56px;
-    transition: all 0.6s ease;
+    transition: all 1s ease;
 }
 .portfolio .project_wrapper:hover .view_casestudy {
     opacity: 1;
 }
-.portfolio .project_wrapper:hover .view_casestudy p.cta:before {
+/* .portfolio .project_wrapper:hover .view_casestudy p.cta:before {
     width: 100%;
     background: #67d4e0;
-}
+} */
 .client_wrapper img {
     width: 450px;
 }
@@ -1055,6 +1058,9 @@ nav ul li a.cta:hover {
 .image_fit {
     width: 100%;
 }
+.prototype_mob_gif {
+    width: 300px;
+}
 .section_space_portfolio {
     padding-bottom: 100px;
 }
@@ -1103,6 +1109,14 @@ nav ul li a.cta:hover {
     color: #222;
     margin-bottom: 15px;
 }
+.case_wrapper ul li {
+    font-family: barlowregular;
+    font-size: 20px;
+    line-height: 40px;
+    color: #222;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
 .approach p {
     font-family: barlowbold;
     font-size: 20px;
@@ -1120,7 +1134,7 @@ nav ul li a.cta:hover {
 }
 .approach p span {
     font-family: barlowregular;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     color: #222;
     display: block;
@@ -1146,6 +1160,13 @@ nav ul li a.cta:hover {
 .case_wrapper .grey_head {
     font-family: barlowbold;
     font-size: 28px;
+    line-height: 40px;
+    color: #cacaca;
+    text-transform: uppercase;
+}
+.case_wrapper .grey_head_sm {
+    font-family: barlowbold;
+    font-size: 24px;
     line-height: 40px;
     color: #cacaca;
     text-transform: uppercase;
@@ -1418,6 +1439,9 @@ nav ul li a.cta:hover {
     }
     .approach p span {
         font-size: 16px;
+    }
+    .prototype_mob_gif {
+        width: 250px;
     }
 }
 @media (max-width: 880px) {
@@ -1757,6 +1781,9 @@ nav ul li a.cta:hover {
     }
     .approach p span {
         font-size: 18px;
+    }
+    .prototype_mob_gif {
+        width: 200px;
     }
 }
 @media (max-width: 640px) {
