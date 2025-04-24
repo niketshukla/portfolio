@@ -143,7 +143,9 @@ header {
     top: -80px;
 }
 .nav_back {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #e7e2dc1f;
+    backdrop-filter: blur(0.5rem);
 }
 header figure {
     margin-bottom: 0;
