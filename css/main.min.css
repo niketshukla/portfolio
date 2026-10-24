@@ -45,7 +45,8 @@ textarea {
 @font-face {
     font-family: barlowregular;
     src: url(../fonts/barlow-regular-webfont.eot);
-    src: url(../fonts/barlow-regular-webfont.eot?#iefix)
+    src:
+        url(../fonts/barlow-regular-webfont.eot?#iefix)
             format("embedded-opentype"),
         url(../fonts/barlow-regular-webfont.woff2) format("woff2"),
         url(../fonts/barlow-regular-webfont.woff) format("woff"),
@@ -57,8 +58,8 @@ textarea {
 @font-face {
     font-family: barlowbold;
     src: url(../fonts/barlow-bold-webfont.eot);
-    src: url(../fonts/barlow-bold-webfont.eot?#iefix)
-            format("embedded-opentype"),
+    src:
+        url(../fonts/barlow-bold-webfont.eot?#iefix) format("embedded-opentype"),
         url(../fonts/barlow-bold-webfont.woff2) format("woff2"),
         url(../fonts/barlow-bold-webfont.woff) format("woff"),
         url(../fonts/barlow-bold-webfont.ttf) format("truetype"),
@@ -69,7 +70,8 @@ textarea {
 @font-face {
     font-family: barlowlight;
     src: url(../fonts/barlow-light-webfont.eot);
-    src: url(../fonts/barlow-light-webfont.eot?#iefix)
+    src:
+        url(../fonts/barlow-light-webfont.eot?#iefix)
             format("embedded-opentype"),
         url(../fonts/barlow-light-webfont.woff2) format("woff2"),
         url(../fonts/barlow-light-webfont.woff) format("woff"),
@@ -81,7 +83,8 @@ textarea {
 @font-face {
     font-family: montserrat_subrayadabold;
     src: url(../fonts/montserratsubrayada-bold-webfont.eot);
-    src: url(../fonts/montserratsubrayada-bold-webfont.eot?#iefix)
+    src:
+        url(../fonts/montserratsubrayada-bold-webfont.eot?#iefix)
             format("embedded-opentype"),
         url(../fonts/montserratsubrayada-bold-webfont.woff2) format("woff2"),
         url(../fonts/montserratsubrayada-bold-webfont.woff) format("woff"),
@@ -94,7 +97,8 @@ textarea {
 @font-face {
     font-family: abril_fatfaceregular;
     src: url(../fonts/abrilfatface-regular-webfont.eot);
-    src: url(../fonts/abrilfatface-regular-webfont.eot?#iefix)
+    src:
+        url(../fonts/abrilfatface-regular-webfont.eot?#iefix)
             format("embedded-opentype"),
         url(../fonts/abrilfatface-regular-webfont.woff2) format("woff2"),
         url(../fonts/abrilfatface-regular-webfont.woff) format("woff"),
@@ -371,6 +375,9 @@ nav ul li a.cta:hover {
 .mob_nav .menulist li a.active,
 .mob_nav .menulist li a:hover {
     color: #f02d3a;
+}
+.card {
+    background-color: transparent;
 }
 .project_enq p {
     font-family: barlowregular;
@@ -801,7 +808,7 @@ nav ul li a.cta:hover {
 }
 .service_txt p {
     font-family: barlowregular;
-    font-size: 35px;
+    font-size: 32px;
     line-height: 55px;
     color: #222;
 }
@@ -1281,6 +1288,10 @@ nav ul li a.cta:hover {
         width: 8px;
         height: 8px;
     }
+    .service_txt p {
+        font-size: 30px;
+        line-height: 50px;
+    }
     .service_tag {
         font-size: 115px;
         line-height: 120px;
@@ -1421,7 +1432,7 @@ nav ul li a.cta:hover {
         transform: translate(-10%, -55%) rotate(210deg) scale(2) !important;
     }
     .service_txt p {
-        font-size: 30px;
+        font-size: 28px;
         line-height: 50px;
     }
     .contact_txt {
@@ -1729,7 +1740,7 @@ nav ul li a.cta:hover {
         transform: translate(-10%, -55%) rotate(210deg) scale(1.8) !important;
     }
     .service_txt p {
-        font-size: 28px;
+        font-size: 26px;
         line-height: 48px;
     }
     .client_wrapper img {
@@ -1875,7 +1886,7 @@ nav ul li a.cta:hover {
         transform: translate(-20%, -55%) rotate(210deg) scale(1.7) !important;
     }
     .service_txt p {
-        font-size: 25px;
+        font-size: 24px;
         line-height: 45px;
     }
     .client_logo,
